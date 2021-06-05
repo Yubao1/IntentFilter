@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xe.demo.intentfilter.MainActivity">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:text="利用系统预定义的action启动Activity"
+        android:onClick="onClick"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:text="利用自定义的action启动Activity"
+        android:onClick="onClick"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:text="利用系统预定义的category启动Activity"
+        android:onClick="onClick"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:text="利用自定义的category启动Activity"
+        android:onClick="onClick"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="match_parent"
+        android:text="利用只含有uri的data启动Activity"
+        android:onClick="onClick"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_width="match_parent"
+        android:text="利用含有uri和mimeType的data启动Activity"
+        android:onClick="onClick"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
